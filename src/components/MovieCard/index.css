@@ -1,0 +1,43 @@
+.movie-card {
+  background-color: #e6d7b1;
+  padding: 8px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  list-style: none;
+  margin-left: 0px;
+  margin-right: 10px;
+  width: 200px;
+  height: 180px;
+}
+@media screen and (min-width: 768px) {
+  .movie-card {
+    width: 250px;
+    height: 220px;
+  }
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 800;
+  color: #3d392d;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 24px;
+  }
+}
+
+.content {
+  font-size: 14px;
+  font-weight: 500;
+  color: #3d392d;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .content {
+    font-size: 18px;
+  }
+}
